@@ -1,0 +1,7 @@
+name: MVLastLocation
+version: 1.0.0
+main: com.ronald.mvlastlocation.MVLastLocation
+api-version: '1.20'
+depend: [Multiverse-Portals]
+author: Ronald
+description: Onthoudt de laatste locatie per wereld bij het reizen door Multiverse Portals.
