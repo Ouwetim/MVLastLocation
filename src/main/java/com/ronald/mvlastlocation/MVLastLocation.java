@@ -1,4 +1,4 @@
-package com.ronald.mvlastlocation;
+package com.tim.mvlastlocation;
 
 import com.onarandombox.MultiversePortals.event.MVPortalEvent;
 import org.bukkit.Bukkit;
