@@ -15,31 +15,17 @@
     </properties>
 
     <repositories>
-        <!-- Paper API Repo -->
         <repository>
             <id>papermc</id>
             <url>https://repo.papermc.io/repository/maven-public/</url>
         </repository>
-        <!-- CodeMC Repo (Spiegelt Multiverse stabiel) -->
-        <repository>
-            <id>codemc-repo</id>
-            <url>https://repo.codemc.io/repository/maven-public/</url>
-        </repository>
     </repositories>
 
     <dependencies>
-        <!-- Paper API -->
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
             <version>1.20.4-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
-        </dependency>
-        <!-- Multiverse-Portals via CodeMC -->
-        <dependency>
-            <groupId>com.onarandombox.multiverseportals</groupId>
-            <artifactId>Multiverse-Portals</artifactId>
-            <version>4.2.1</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
